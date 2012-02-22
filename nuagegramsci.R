@@ -32,3 +32,4 @@ png("NuageGramsci.png", width=1280,height=800)
 wordcloud(ap.d$word,ap.d$freq, scale=c(6,.2),min.freq=3,
 max.words=Inf, random.order=FALSE, rot.per=.15, colors=pal2)
 dev.off()
+
